@@ -63,15 +63,23 @@ nav ul li a:hover {
 h1 {
     padding-bottom: 20px;
     margin-bottom: 10px;
+    margin-left: 2vw;
 }
 
 fieldset {
     border: none;
     letter-spacing: 2px;
     padding: 5px;
-    display: block;
     margin: 15px;
     border-radius: 8px;
+}
+
+input, textarea {
+  border: 2px solid #eee;
+  border: 0;
+  padding:10px;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  width: 35vw;
 }
 
 fieldset::placeholder {
@@ -79,6 +87,24 @@ fieldset::placeholder {
     background-color: aliceblue;
 }
 
+
+input[type="submit"] {
+  border: 10px solid #eee;
+  border: 0;
+  padding:10px;
+  box-shadow:0 0 15px 4px rgba(41, 35, 35, 0.06);
+  width: 10vw;
+  margin-left: 20px;
+  border-radius: 10px;
+  margin-bottom: 10vw;
+}
+
+/* footer section start */
+
+footer {
+  margin-top: 50px;
+  padd
+}
 
 
 
