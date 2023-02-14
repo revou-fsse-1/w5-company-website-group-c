@@ -84,22 +84,29 @@ h1 {
 /* our planes section start */
 .our-planes {
   font-size: 1.5rem;
-}
-
-.grid-container {
   background-color: #cff5e7;
   opacity: 63%;
-  display: grid;
-  gap: 3px;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-  height: 120%;
+  margin-left: auto;
+}
+
+.our-planes:hover {
+  background-color: #a4dff4;
+  background: linear-gradient(#a4dff4, #FFFFFF);
+  transition: background0.4s ease-in-out;
 }
 
 .best-planes {
   text-align: center;
-  padding: 5px;
-  margin: 10px;
+  padding: 10px;
+  margin: 20px;
+  z-index: 3;
+}
+
+.grid-container {
+  display: grid;
+  gap: 3px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
 }
 
 .grid-container img {
@@ -110,48 +117,69 @@ h1 {
   left: 25px;
   object-fit: fill;
   border-radius: 5%;
-  box-shadow: 3px 3px 3px #93bfcf;
 }
 
 .img.fokker {
   position: relative;
-  left: 15px;
+  left: auto;
   grid-row: 1;
   grid-column: 1 / 2;
+  width: 80%;
+  height: 80%;
+  margin-left: auto;
 }
 
 .img.airbus {
+  width: 90%;
+  height: 90%;
+  margin-left: auto;
   grid-row: 1;
   grid-column: 2 / 3;
 }
 
 .img.beechjet {
+  position: relative;
+  left: auto;
   grid-row: 1;
   grid-column: 3 / 4;
 }
 
-.img.fokker:hover {
-  transition: transform 0.2s;
-  transform: scale(1.1);
-}
-
-.img.airbus:hover {
-  transition: transform 0.2s;
-  transform: scale(1.1);
-}
-
+.img.fokker:hover,
+.img.airbus:hover,
 .img.beechjet:hover {
   transition: transform 0.2s;
   transform: scale(1.1);
 }
 
 .planes-type {
-  font-size: 1rem;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding-bottom: 50px;
+  margin-bottom: 75px;
 }
+
+.planes-type ul {
+  list-style: none;
+  margin-top: 15px;
+}
+
+h3 {
+  text-decoration: double;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+/* our planes section ends here */
+
 /* our partners start */
 
 .our-partners {
-  text-align: center;
+  font-size: 1.5rem;
+  z-index: 5;
 }
 
 .partners-container {
@@ -167,8 +195,19 @@ h1 {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  background-color: #7ac9ac;
   border-radius: 15px;
+}
+
+.bni:hover,
+.bri:hover,
+.tokopedia:hover,
+.rans-entertainment:hover,
+.jiwasraya:hover,
+.ms-glow:hover,
+.scarlet:hover,
+.nettv:hover {
+  transition: transform 0.3s;
+  transform: scale(1.1);
 }
 
 /* our partners end */
