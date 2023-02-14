@@ -43,3 +43,71 @@ h1 {
   padding-top: 78px;
 }
 /* hero section end */
+
+/* our planes section start */
+.our-planes {
+  font-size: 1.5rem;
+}
+
+.grid-container {
+  background-color: #CFF5E7;
+  opacity: 63%;
+  display: grid;
+  gap: 3px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  height: 120%;
+}
+
+.best-planes {
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+}
+
+.grid-container img {
+  width: 80%;
+  height: 80%;
+  position: relative;
+  top: 20px;
+  left: 25px;
+  object-fit: fill;
+  border-radius: 5%;
+  box-shadow: 3px 3px 3px #93BFCF;
+}
+
+.img.fokker {
+  position: relative;
+  left: 15px;
+  grid-row: 1;
+  grid-column: 1 / 2;
+}
+
+.img.airbus {
+  grid-row: 1;
+  grid-column: 2 / 3;
+}
+
+.img.beechjet {
+  grid-row: 1;
+  grid-column: 3 / 4;
+}
+
+.img.fokker:hover {
+  transition: transform 0.2s;
+  transform: scale(1.1);
+}
+
+.img.airbus:hover {
+  transition: transform 0.2s;
+  transform: scale(1.1);
+}
+
+.img.beechjet:hover {
+  transition: transform 0.2s;
+  transform: scale(1.1);
+}
+
+.planes-type {
+  font-size: 1rem;
+}
