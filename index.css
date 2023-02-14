@@ -152,7 +152,8 @@ h3 {
 /* our partners start */
 
 .our-partners {
-  text-align: center;
+  font-size: 1.5rem;
+  z-index: 5;
 }
 
 .partners-container {
