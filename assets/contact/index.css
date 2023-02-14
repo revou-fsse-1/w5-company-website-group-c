@@ -55,110 +55,96 @@ nav ul li a:hover {
 /* form section start */
 
 .form {
-    position: relative;
-    top: 100px;
-    left: 70px;
+  position: relative;
+  top: 100px;
+  left: 70px;
 }
 
 h1 {
-    padding-bottom: 20px;
-    margin-bottom: 10px;
-    margin-left: 2vw;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  margin-left: 2vw;
+  font-size: 2.4rem;
+  font-weight: bold;
 }
 
 fieldset {
-    border: none;
-    letter-spacing: 2px;
-    padding: 5px;
-    margin: 15px;
-    border-radius: 8px;
+  border: none;
+  letter-spacing: 2px;
+  padding: 5px;
+  margin: 15px;
+  border-radius: 8px;
 }
 
-input, textarea {
+input,
+textarea {
   border: 2px solid #eee;
   border: 0;
-  padding:10px;
-  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  padding: 10px;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
   width: 35vw;
 }
 
 fieldset::placeholder {
-    color: silver;
-    background-color: aliceblue;
+  color: silver;
+  background-color: aliceblue;
 }
-
 
 input[type="submit"] {
   border: 10px solid #eee;
   border: 0;
-  padding:10px;
-  box-shadow:0 0 15px 4px rgba(41, 35, 35, 0.06);
+  padding: 10px;
+  box-shadow: 0 0 15px 4px rgba(41, 35, 35, 0.06);
   width: 10vw;
   margin-left: 20px;
   border-radius: 10px;
-  margin-bottom: 10vw;
+  margin-bottom: 5vw;
 }
 
+.contact.me {
+  object-fit: contain;
+  width: 35%;
+  height: 35%;
+  position: relative;
+  top: -50vh;
+  right: -55vw;
+}
+
+.form, .contact.me {
+  z-index: -1;
+}
 /* footer section start */
 
 footer {
-  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: #7ac9ac;
+  justify-content: center;
+  height: 30vh;
+  width: 100vw;
+  align-items: center;
+  gap: 12px;
 }
 
+footer ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  gap: 42px;
+}
 
+footer img {
+  align-items: center;
+  width: 180px;
+  height: 62px;
+}
 
+footer ul li a {
+  text-decoration: none;
+  color: rgb(222, 245, 245);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* footer start */
-footer {
-    display: flex;
-    flex-direction: column;
-    background-color: #7ac9ac;
-    justify-content: center;
-    height: 30vh;
-    width: 100vw;
-    align-items: center;
-    gap: 12px;
-  }
-  
-  footer ul {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    list-style: none;
-    gap: 42px;
-  }
-  
-  footer img {
-    align-items: center;
-    width: 180px;
-    height: 62px;
-  }
-  
-  footer ul li a {
-    text-decoration: none;
-    color: rgb(222, 245, 245);
-  }
-  
-  footer ul li a:hover {
-    color: rgb(244, 255, 255);
-  }
-  
+footer ul li a:hover {
+  color: rgb(244, 255, 255);
+}
