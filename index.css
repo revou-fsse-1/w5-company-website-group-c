@@ -59,8 +59,14 @@ h1 {
 /* our planes section start */
 .our-planes {
   font-size: 1.5rem;
+  z-index: 5;
 }
 
+.best-planes {
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+}
 .grid-container {
   background-color: #CFF5E7;
   opacity: 63%;
@@ -71,15 +77,10 @@ h1 {
   height: 120%;
 }
 
-.best-planes {
-  text-align: center;
-  padding: 5px;
-  margin: 10px;
-}
 
 .grid-container img {
-  width: 80%;
-  height: 80%;
+  width: 60%;
+  height: 50%;
   position: relative;
   top: 20px;
   left: 25px;
@@ -123,6 +124,8 @@ h1 {
 .planes-type {
   font-size: 1rem;
 }
+/* our planes section ends here */
+
 /* our partners start */
 
 .our-partners {
