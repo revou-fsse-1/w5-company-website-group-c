@@ -5,11 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Group C</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="responsive.css" />
   </head>
   <body>
     <header>
       <nav>
-        <img src="" alt="logo" />
+        <div class="logo">
+          <img src="" alt="logo" />
+        </div>
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
@@ -27,42 +31,44 @@
         <img src="" alt="" />
       </div>
     </section>
-    <div class="our-planes">
+    
+    <section class="our-planes">
       <div class="grid-container">
-        <img src="" />
-        <img src="" />
-        <img src="" />
+        <img class="fokker-img" src="./assets/homepage/our-planes/Fokker100-vip.jpg" alt="fokker-img"/>
+        <img class="airbus-img" src="./assets/homepage/our-planes/airbus.png" alt="airbus-img"/>
+        <img class="beechjet-img" src="./assets/homepage/our-planes/Beechjet-390.jpg" alt="beechjet-img"/>
       </div>
       <div class="planes-type">
+        <h2>Our Best Planes</h2>
         <div class="spec fokker">
           <p class="fokker">Fokker 100 VIP</p>
           <p class="spec">Specifications:</p>
           <ul>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Crew: 2 Pilots, 3 Flight Attendance</li>
+            <li>First class cabin</li>
+            <li>Leather seats, 52 passengers maximum</li>
           </ul>
         </div>
         <div class="spec airbus">
           <p class="airbus">Airbus 320</p>
           <p class="spec">Specifications:</p>
           <ul>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Available for medium range flight</li>
+            <li>First class cabin</li>
+            <li>160 passengers at max</li>
           </ul>
         </div>
         <div class="spec beechjet">
           <p class="beechjet">Beechjet 390</p>
           <p class="spec">Specifications:</p>
           <ul>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Crew: 2 Pilots, 1-2 Flight Attendance</li>
+            <li>2 Turbofan Engines</li>
+            <li>Maximum 6 passengers</li>
           </ul>
         </div>
       </div>
-    </div>
+    </section>
 
     <div class="our partners">
       <h2>Our Partners</h2>
@@ -87,5 +93,7 @@
         </div>
       </div>
     </div>
+
+    <script src="index.js"></script>
   </body>
 </html>
