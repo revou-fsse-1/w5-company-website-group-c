@@ -7,9 +7,11 @@
 /* navbar start */
 nav {
   display: flex;
+  position: fixed;
   background-color: #7ac9ac;
   justify-content: space-between;
   height: 10vh;
+  width: 100vw;
   align-items: center;
 }
 
@@ -33,4 +35,11 @@ nav ul li a {
 nav ul li a:hover {
   color: rgb(244, 255, 255);
 }
+
 /* navbar end */
+
+/* hero section start */
+h1 {
+  padding-top: 78px;
+}
+/* hero section end */
