@@ -90,14 +90,13 @@ h1 {
 /* our planes section start */
 .our-planes {
   font-size: 1.5rem;
-  background-color: #cff5e7;
+  background-color: #edf6f2;
   opacity: 63%;
   margin-left: auto;
 }
 
 .our-planes:hover {
-  background-color: #a4dff4;
-  background: linear-gradient(#a4dff4, #FFFFFF);
+  background: linear-gradient(#bce6f5, #FFFFFF);
   transition: background0.4s ease-in-out;
 }
 
