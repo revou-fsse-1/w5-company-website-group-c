@@ -77,7 +77,6 @@ h1 {
   height: 120%;
 }
 
-
 .grid-container img {
   width: 80%;
   height: 80%;
@@ -129,7 +128,8 @@ h1 {
 /* our partners start */
 
 .our-partners {
-  text-align: center;
+  font-size: 1.5rem;
+  z-index: 5;
 }
 
 .partners-container {
