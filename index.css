@@ -19,12 +19,20 @@ nav ul {
   display: flex;
   list-style: none;
   gap: 30px;
-  margin-right: 51px;
+  margin-right: 34px;
+}
+
+.home,
+.about,
+.contact {
+  color: #323232;
 }
 
 nav .logo {
   display: flex;
-  margin-left: 35px;
+  margin-left: 12px;
+  width: 112px;
+  height: 60px;
 }
 
 nav ul li a {
@@ -42,4 +50,100 @@ nav ul li a:hover {
 h1 {
   padding-top: 78px;
 }
+
+.hero {
+  display: flex;
+}
 /* hero section end */
+
+/* our planes section start */
+.our-planes {
+  font-size: 1.5rem;
+}
+
+.grid-container {
+  background-color: #CFF5E7;
+  opacity: 63%;
+  display: grid;
+  gap: 3px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  height: 120%;
+}
+
+.best-planes {
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+}
+
+.grid-container img {
+  width: 80%;
+  height: 80%;
+  position: relative;
+  top: 20px;
+  left: 25px;
+  object-fit: fill;
+  border-radius: 5%;
+  box-shadow: 3px 3px 3px #93BFCF;
+}
+
+.img.fokker {
+  position: relative;
+  left: 15px;
+  grid-row: 1;
+  grid-column: 1 / 2;
+}
+
+.img.airbus {
+  grid-row: 1;
+  grid-column: 2 / 3;
+}
+
+.img.beechjet {
+  grid-row: 1;
+  grid-column: 3 / 4;
+}
+
+.img.fokker:hover {
+  transition: transform 0.2s;
+  transform: scale(1.1);
+}
+
+.img.airbus:hover {
+  transition: transform 0.2s;
+  transform: scale(1.1);
+}
+
+.img.beechjet:hover {
+  transition: transform 0.2s;
+  transform: scale(1.1);
+}
+
+.planes-type {
+  font-size: 1rem;
+}
+/* our partners start */
+
+.our-partners {
+  text-align: center;
+}
+
+.partners-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 240px 240px;
+  gap: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.partners-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background-color: #7ac9ac;
+  border-radius: 15px;
+}
+
+/* our partners end */
