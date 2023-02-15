@@ -34,10 +34,10 @@ nav ul {
   color: #323232;
 }
 
-nav .logo {
+nav .logo a img {
   display: flex;
   margin-left: 12px;
-  width: 112px;
+  width: 195px;
   height: 60px;
 }
 
@@ -101,7 +101,7 @@ input[type="submit"] {
   margin-bottom: 5vw;
 }
 
-.contact.me {
+.contact img {
   object-fit: contain;
   width: 35%;
   height: 35%;
