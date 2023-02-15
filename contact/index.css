@@ -58,6 +58,7 @@ nav ul li a:hover {
   position: relative;
   margin-top: 100px;
   margin-left: 50px;
+  z-index: -1;
 }
 
 h1 {
@@ -69,6 +70,7 @@ h1 {
   position: relative;
   top: 100px;
   left: 50px;
+  z-index: -1;
 }
 
 fieldset {
@@ -104,6 +106,7 @@ input[type="submit"] {
   border-radius: 10px;
   margin-bottom: 5vw;
   cursor: pointer;
+  z-index: -1;
 }
 
 input[type="submit"]:hover {
@@ -117,14 +120,28 @@ input[type="submit"]:hover {
   width: 35%;
   height: 35%;
   position: relative;
-  top: -65vh;
+  top: -80vh;
   right: -55vw;
+  z-index: -1;
 }
 
 .form,
 .contact.me {
   z-index: -1;
 }
+
+h2 {
+  text-align: center;
+  z-index: 4;
+  position: relative;
+  top: -37vh;
+}
+
+span {
+  font-weight: bold;
+  color: #7ac9ac;
+}
+
 /* footer section start */
 
 footer {
