@@ -36,10 +36,10 @@ nav ul {
   color: #323232;
 }
 
-nav .logo {
+nav .logo a img {
   display: flex;
   margin-left: 12px;
-  width: 112px;
+  width: 195px;
   height: 60px;
 }
 
@@ -106,7 +106,7 @@ h1 {
 /* hero section end */
 
 /* our planes section start */
-.our-planes {
+.our-planes:not(img) {
   font-size: 1.5rem;
   background-color: #edf6f2;
   margin-left: auto;

@@ -2,6 +2,7 @@
 
 body {
   font-family: "Raleway", sans-serif;
+  overflow-x: hidden;
 }
 
 /* css reset */
@@ -34,10 +35,10 @@ nav ul {
   color: #323232;
 }
 
-nav .logo {
+nav .logo a img {
   display: flex;
   margin-left: 12px;
-  width: 112px;
+  width: 195px;
   height: 60px;
 }
 
@@ -52,68 +53,41 @@ nav ul li a:hover {
 
 /* navbar end */
 
-/* form section start */
-
-.form {
-  position: relative;
-  top: 100px;
-  left: 70px;
+/* about section start */
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-h1 {
-  padding-bottom: 20px;
-  margin-bottom: 10px;
-  margin-left: 2vw;
-  font-size: 2.4rem;
-  font-weight: bold;
+.image {
+  padding-top: 100px;
 }
 
-fieldset {
-  border: none;
-  letter-spacing: 2px;
-  padding: 5px;
-  margin: 15px;
-  border-radius: 8px;
+.box {
+  background-color: #d9d9d9;
+  width: 1177px;
+  height: 10vh;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding-left: 23px;
+  justify-content: center;
 }
 
-input,
-textarea {
-  border: 2px solid #eee;
-  border: 0;
-  padding: 10px;
-  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
-  width: 35vw;
+.article {
+  display: flex;
+  justify-content: center;
+  margin-top: 104px;
+  margin-bottom: 60px;
 }
 
-fieldset::placeholder {
-  color: silver;
-  background-color: aliceblue;
+.article img {
+  width: 27rem;
+  padding-left: 76px;
 }
 
-input[type="submit"] {
-  border: 10px solid #eee;
-  border: 0;
-  padding: 10px;
-  box-shadow: 0 0 15px 4px rgba(41, 35, 35, 0.06);
-  width: 10vw;
-  margin-left: 20px;
-  border-radius: 10px;
-  margin-bottom: 5vw;
-}
-
-.contact img {
-  object-fit: contain;
-  width: 35%;
-  height: 35%;
-  position: relative;
-  top: -65vh;
-  right: -55vw;
-}
-
-.form,
-.contact.me {
-  z-index: -1;
-}
 /* footer section start */
 
 footer {
