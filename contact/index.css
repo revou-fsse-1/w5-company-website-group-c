@@ -118,12 +118,11 @@ input[type="submit"]:hover {
 
 .contact img {
   object-fit: contain;
-  width: 35%;
-  height: 35%;
+  width: 298px;
+  height: 271px;
   position: relative;
-  top: -80vh;
-  right: -55vw;
-  z-index: -1;
+  top: -67vh;
+  right: -57vw;
 }
 
 .form,
@@ -177,4 +176,42 @@ footer ul li a {
 
 footer ul li a:hover {
   color: rgb(244, 255, 255);
+}
+
+/* responsiveness mobile */
+
+@media screen and (max-width: 750px) {
+
+  h1, h2, fieldset::placeholder {
+    font-size: 1.7rem;
+  }
+
+  .contact img, nav ul li {
+    display: none;
+  }
+  
+  .submit, input, textarea {
+    width: 55vw;
+    height: 3vh;
+  }
+
+  .advert {
+    position: relative;
+    top: 35vh;
+  }
+
+  h2 {
+  font-size: 16px;
+  }
+
+  input[type="submit"] {
+    width: 30vh;
+    height: 6vh;
+  }
+}
+
+@media screen and (max-width:600px) {
+  h2 {
+    display: none;
+  }
 }
