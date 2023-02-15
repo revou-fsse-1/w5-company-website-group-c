@@ -6,4 +6,6 @@ Figma Links : https://www.figma.com/file/twZQwImFDlaueKmUqJ1hdI/Group-Project-Te
 
 Miro Links : https://miro.com/app/board/uXjVPoSyOaU=/?share_link_id=951665566324
 
-Website Links : https://milestone1.nikenhpsr.site/
+Website Links :
+
+- https://milestone1-nurdinbeta.netlify.app/
