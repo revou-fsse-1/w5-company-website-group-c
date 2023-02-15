@@ -55,22 +55,16 @@ nav ul li a:hover {
 /* form section start */
 
 .form-group {
-  position: relative;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-left: 50px;
   z-index: -1;
 }
 
 h1 {
-  padding-bottom: 20px;
-  margin-bottom: 10px;
-  margin-left: 2vw;
+  margin-left: 15vw;
   font-size: 2.4rem;
   font-weight: bold;
-  position: relative;
-  top: 100px;
-  left: 50px;
-  z-index: -1;
+  padding-top: 100px;
 }
 
 fieldset {
@@ -120,7 +114,7 @@ input[type="submit"]:hover {
   width: 35%;
   height: 35%;
   position: relative;
-  top: -80vh;
+  top: -90vh;
   right: -55vw;
   z-index: -1;
 }
