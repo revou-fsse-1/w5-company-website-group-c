@@ -19,6 +19,7 @@ nav {
   height: 10vh;
   width: 100vw;
   align-items: center;
+  z-index: 5;
 }
 
 nav ul {
@@ -58,7 +59,7 @@ nav ul li a:hover {
   position: relative;
   margin-top: 100px;
   margin-left: 50px;
-  z-index: -1;
+  z-index: 1;
 }
 
 h1 {
@@ -70,7 +71,7 @@ h1 {
   position: relative;
   top: 100px;
   left: 50px;
-  z-index: -1;
+  z-index: 1;
 }
 
 fieldset {
@@ -106,7 +107,7 @@ input[type="submit"] {
   border-radius: 10px;
   margin-bottom: 5vw;
   cursor: pointer;
-  z-index: -1;
+  z-index: 1;
 }
 
 input[type="submit"]:hover {
@@ -127,7 +128,7 @@ input[type="submit"]:hover {
 
 .form,
 .contact.me {
-  z-index: -1;
+  z-index: 1;
 }
 
 h2 {
