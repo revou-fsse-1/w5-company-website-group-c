@@ -15,8 +15,8 @@
       <nav>
         <div class="logo">
           <a href="/index.html">
-          <img src="/assets/icon-website.png" alt="logo" />
-        </a>
+            <img src="/assets/icon-website.png" alt="logo" />
+          </a>
         </div>
         <ul>
           <li><a class="home" href="/index.html">Home</a></li>
@@ -30,45 +30,48 @@
 
     <section class="form">
       <h1>Book Now!</h1>
-      <form>
-        <fieldset>
-          <input
-            id="name"
-            name="name"
-            type="text"
-            placeholder="Name"
-            required
-          />
-        </fieldset>
-        <fieldset>
-          <input
-            id="email"
-            name="email"
-            type="email"
-            placeholder="Email"
-            required
-          />
-        </fieldset>
-        <fieldset>
-          <input
-            id="phone"
-            name="phone"
-            type="number"
-            placeholder="Phone Number"
-            required
-          />
-        </fieldset>
-        <fieldset>
-          <textarea
-            id="messages"
-            name="messages"
-            rows="5"
-            cols="30"
-            placeholder="Messages"
-          ></textarea>
-        </fieldset>
-        <input type="submit" value="Submit" />
-      </form>
+      <div class="form-group">
+        <form>
+          <fieldset>
+            <input
+              id="name"
+              name="name"
+              type="text"
+              placeholder="Name"
+              required
+            />
+          </fieldset>
+          <fieldset>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="Email"
+              required
+            />
+          </fieldset>
+          <fieldset>
+            <input
+              id="telNo"
+              name="telNo"
+              type="tel"
+              placeholder="Phone Number"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}-[0-9]{3}"
+              required
+            />
+          </fieldset>
+          <fieldset>
+            <textarea
+              id="messages"
+              name="messages"
+              rows="5"
+              cols="30"
+              placeholder="Messages"
+            ></textarea>
+          </fieldset>
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
     </section>
 
     <section class="contact img">
