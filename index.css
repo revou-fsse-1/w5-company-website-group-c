@@ -64,11 +64,10 @@ h1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 150px 150px;
-  gap: 24px;
-  padding-top: 70px;
-  padding-bottom: 10px;
+  gap: 42px;
   height: 100vh;
   align-content: center;
+  padding-left: 0;
 }
 
 .grid-hero-container img {
@@ -82,14 +81,26 @@ h1 {
   transform: scale(1.1);
 }
 
+.grid-hero-container #slogan {
+  grid-column: 1 / span 3;
+  grid-row: 1 / span 2;
+  font-size: 42px;
+  background: linear-gradient(white, #bce6f5, #7ac9ac, white);
+}
+
 .grid-hero-container #item1 {
-  grid-column: 2;
-  grid-row: 1 / 2 span;
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.grid-hero-container #item2 {
+  grid-column: 1 / span 2;
+  grid-row: 1;
 }
 
 .grid-hero-container #item3 {
   grid-column: 3;
-  grid-row: 2;
+  grid-row: 1 / span 2;
 }
 
 /* hero section end */
@@ -103,7 +114,7 @@ h1 {
 }
 
 .our-planes:hover {
-  background: linear-gradient(#bce6f5, #FFFFFF);
+  background: linear-gradient(#bce6f5, #ffffff);
   transition: background0.4s ease-in-out;
 }
 

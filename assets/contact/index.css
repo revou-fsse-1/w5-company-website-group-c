@@ -101,16 +101,17 @@ input[type="submit"] {
   margin-bottom: 5vw;
 }
 
-.contact.me {
+.contact img {
   object-fit: contain;
   width: 35%;
   height: 35%;
   position: relative;
-  top: -50vh;
+  top: -65vh;
   right: -55vw;
 }
 
-.form, .contact.me {
+.form,
+.contact.me {
   z-index: -1;
 }
 /* footer section start */
