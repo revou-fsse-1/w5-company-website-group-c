@@ -101,7 +101,7 @@ input[type="submit"] {
   margin-bottom: 5vw;
 }
 
-.contact img {
+.contact.me {
   object-fit: contain;
   width: 35%;
   height: 35%;
