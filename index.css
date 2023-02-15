@@ -113,7 +113,7 @@ h1 {
 }
 
 .our-planes:hover {
-  background: linear-gradient(#a4dff4, #FFFFFF);
+  background: linear-gradient(#a4dff4, #ffffff);
   transition: background0.4s ease-in-out;
 }
 
@@ -223,14 +223,7 @@ h3 {
   border-radius: 15px;
 }
 
-.bni:hover,
-.bri:hover,
-.tokopedia:hover,
-.rans-entertainment:hover,
-.jiwasraya:hover,
-.ms-glow:hover,
-.scarlet:hover,
-.nettv:hover {
+.partners-container img:hover {
   transition: transform 0.3s;
   transform: scale(1.1);
 }
