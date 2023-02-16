@@ -1,18 +1,24 @@
 # AviEro - Charter Flight Company
 
-![Aviero Homepage](assets/aviero.png)
+![aaa](/assets/aviero.png)
 
-## Pages
+<p align="center"> ✈️ Your Best Flight Travel Companion Ever ! ✈️
+
+## Pages 🚩
+
+---
 
 - Home
 - About
 - Contact
 
-## Links
+## Links 🔗
 
-Figma Links : https://www.figma.com/file/twZQwImFDlaueKmUqJ1hdI/Group-Project-Team-C-Week-5?node-id=0%3A1&t=bUpVzDwIanVrst9w-1
+---
 
-Miro Links : https://miro.com/app/board/uXjVPoSyOaU=/?share_link_id=951665566324
+Figma Links : [Click Here](https://www.figma.com/file/twZQwImFDlaueKmUqJ1hdI/Group-Project-Team-C-Week-5?node-id=0%3A1&t=bUpVzDwIanVrst9w-1)
+
+Miro Links : [Click Here](https://miro.com/app/board/uXjVPoSyOaU=/?share_link_id=951665566324)
 
 Website Links :
 
