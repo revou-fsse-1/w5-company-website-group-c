@@ -23,6 +23,10 @@ nav {
   z-index: 99;
 }
 
+.hamburger-icon {
+  display: none;
+}
+
 nav ul {
   display: flex;
   list-style: none;
@@ -64,6 +68,10 @@ nav ul li a:hover {
 
 .image {
   padding-top: 100px;
+}
+
+.about .image img {
+  object-fit: cover;
 }
 
 .box {
@@ -147,4 +155,52 @@ footer ul li a {
 
 footer ul li a:hover {
   color: rgb(244, 255, 255);
+}
+
+/* media queries */
+@media only screen and (max-width: 602px) {
+  .hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  nav ul li {
+    display: none;
+  }
+
+  nav {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  nav .logo a img {
+    width: 121px;
+    height: 42px;
+    position: fixed;
+    left: -11px;
+    top: 4px;
+  }
+
+  .about .image img {
+    object-fit: contain;
+  }
+
+  .article {
+    flex-wrap: wrap;
+  }
+
+  .article img {
+    padding: inherit;
+    width: 536px;
+  }
+
+  .article article {
+    padding-top: 20px;
+  }
+
+  .article p {
+    text-align: justify;
+    padding-right: 10px;
+  }
 }
