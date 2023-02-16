@@ -1,6 +1,6 @@
 # AviEro - Charter Flight Company
 
-![aaa](/assets/aviero.png)
+![Aviero](/assets/aviero.png)
 
 <p align="center"> ✈️ Your Best Flight Travel Companion Ever ! ✈️
 
