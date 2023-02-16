@@ -22,6 +22,10 @@ nav {
   z-index: 5;
 }
 
+.hamburger-icon {
+  display: none;
+}
+
 nav ul {
   display: flex;
   list-style: none;
@@ -181,6 +185,11 @@ footer ul li a:hover {
 /* responsiveness mobile */
 
 @media screen and (max-width: 750px) {
+  .hamburger-icon {
+    display: flex;
+    justify-content: center;
+    padding-right: 20px;
+  }
 
   h1, h2, fieldset::placeholder {
     font-size: 1.7rem;
