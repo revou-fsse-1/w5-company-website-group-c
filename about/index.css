@@ -99,9 +99,15 @@ nav ul li a:hover {
 
 .article {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   margin-top: 104px;
   margin-bottom: 60px;
+}
+
+span {
+  background-color: #7ac9ac;
+  border-radius: 5px;
 }
 
 .article article {
