@@ -4,6 +4,10 @@
 
 <p align="center"> ✈️ Your Best Flight Travel Companion Ever ! ✈️
 
+## Description
+
+AVIERO is the global Provider for Charter flights, Aircraft Management and Luxury Solutions, and has organized flights for corporations, governments and private clients to many countries worldwide.
+
 ## Pages 🚩
 
 ---
