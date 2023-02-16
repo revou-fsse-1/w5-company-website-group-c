@@ -1,5 +1,7 @@
 # AviEro - Charter Flight Company
 
+![Aviero Homepage](assets/aviero.png)
+
 ## Pages
 
 - Home
