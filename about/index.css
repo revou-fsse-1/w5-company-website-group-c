@@ -177,19 +177,6 @@ footer ul li a:hover {
     display: none;
   }
 
-  nav {
-    flex-direction: row-reverse;
-    justify-content: space-between;
-  }
-
-  nav .logo a img {
-    width: 121px;
-    height: 42px;
-    position: fixed;
-    left: -11px;
-    top: 4px;
-  }
-
   .about .image img {
     object-fit: contain;
   }
