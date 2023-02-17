@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@300&display=swap");
+
+body {
+  font-family: "Raleway", sans-serif;
+  overflow-x: hidden;
+}
+
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* navbar start */
+nav {
+  display: flex;
+  position: fixed;
+  background-color: #7ac9ac;
+  justify-content: space-between;
+  height: 10vh;
+  width: 100vw;
+  align-items: center;
+  z-index: 5;
+}
+
+.hamburger-icon {
+  display: none;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  margin-right: 34px;
+}
+
+.home,
+.about,
+.contact {
+  color: #323232;
+}
+
+nav .logo a img {
+  display: flex;
+  margin-left: 12px;
+  width: 195px;
+  height: 60px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(222, 245, 245);
+}
+
+nav ul li a:hover {
+  color: rgb(244, 255, 255);
+}
+
+/* navbar end */
+
+/* form section start */
+
+.form-group {
+  position: relative;
+  margin-top: 100px;
+  margin-left: 50px;
+  z-index: 1;
+}
+
+h1 {
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  margin-left: 2vw;
+  font-size: 2.4rem;
+  font-weight: bold;
+  position: relative;
+  top: 100px;
+  left: 50px;
+  z-index: 1;
+}
+
+fieldset {
+  border: none;
+  letter-spacing: 2px;
+  padding: 5px;
+  margin: 15px;
+  border-radius: 8px;
+}
+
+input,
+textarea {
+  border: 2px solid #eee;
+  border: 0;
+  padding: 10px;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+  width: 35vw;
+  color: rgb(81, 59, 59);
+}
+
+fieldset::placeholder {
+  color: silver;
+  background-color: aliceblue;
+}
+
+input[type="submit"] {
+  border: 10px solid #242323;
+  border: 0;
+  padding: 10px;
+  box-shadow: 30px 8px 30px 8px rgba(41, 35, 35, 0.06);
+  width: 10vw;
+  margin-left: 20px;
+  border-radius: 10px;
+  margin-bottom: 5vw;
+  cursor: pointer;
+  z-index: 1;
+}
+
+input[type="submit"]:hover {
+  background-color: #7ac9ac;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.contact img {
+  object-fit: contain;
+  width: 298px;
+  height: 271px;
+  position: relative;
+  top: -67vh;
+  right: -57vw;
+}
+
+.form,
+.contact.me {
+  z-index: 1;
+}
+
+h2 {
+  text-align: center;
+  z-index: 4;
+  position: relative;
+  top: -37vh;
+}
+
+span {
+  font-weight: bold;
+  color: #7ac9ac;
+}
+
+/* footer section start */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #7ac9ac;
+  justify-content: center;
+  height: 30vh;
+  width: 100vw;
+  align-items: center;
+  gap: 12px;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  gap: 42px;
+}
+
+footer img {
+  align-items: center;
+  width: 180px;
+  height: 62px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: rgb(222, 245, 245);
+}
+
+footer ul li a:hover {
+  color: rgb(244, 255, 255);
+}
+
+/* responsiveness mobile */
+
+@media screen and (max-width: 750px) {
+  .hamburger-icon {
+    display: flex;
+    justify-content: center;
+    padding-right: 20px;
+  }
+
+  h1,
+  h2,
+  fieldset::placeholder {
+    font-size: 1.7rem;
+  }
+
+  .contact img,
+  nav ul li {
+    display: none;
+  }
+
+  .submit,
+  input,
+  textarea {
+    width: 55vw;
+    height: 3vh;
+  }
+
+  .advert {
+    position: relative;
+    top: 35vh;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  input[type="submit"] {
+    width: 30vh;
+    height: 6vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h2 {
+    display: none;
+  }
+}
