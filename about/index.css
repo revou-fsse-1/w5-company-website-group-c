@@ -165,11 +165,10 @@ footer ul li a:hover {
 
 /* media queries */
 
-@media only screen and (max-width: 602px) {
+@media screen and (max-width: 602px) {
   .hamburger-icon {
     display: flex;
-    flex-direction: column;
-    position: relative;
+    justify-content: center;
     padding-right: 20px;
   }
 
