@@ -269,7 +269,7 @@ footer ul li a:hover {
 }
 
 /* media queries for our planes section */
-@media screen and (max-width: 696px) {
+@media screen and (max-width: 697px) {
   .hamburger-icon {
     display: flex;
     justify-content: center;
