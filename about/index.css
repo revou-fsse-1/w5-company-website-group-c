@@ -183,36 +183,35 @@ footer ul li a:hover {
   }
 
   nav .logo a img {
-    width: 121px;
-    height: 42px;
+    width: 195px;
     position: fixed;
-    left: -11px;
-    top: 4px;
+    left: 0px;
+    top: -1px;
   }
+}
 
-  .about .image img {
-    object-fit: contain;
-  }
+.about .image img {
+  object-fit: contain;
+}
 
-  .article {
-    flex-wrap: wrap;
-  }
+.article {
+  flex-wrap: wrap;
+}
 
-  .article img {
-    padding: inherit;
-    width: 536px;
-  }
+.article img {
+  padding: inherit;
+  width: 536px;
+}
 
-  .article article {
-    padding-top: 20px;
-  }
+.article article {
+  padding-top: 20px;
+}
 
-  .article p {
-    text-align: justify;
-    padding-right: 10px;
-  }
+.article p {
+  text-align: justify;
+  padding-right: 10px;
+}
 
-  .article article h2 {
-    text-align: center;
-  }
+.article article h2 {
+  text-align: center;
 }
